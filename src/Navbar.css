@@ -1,0 +1,235 @@
+/* Sidebar styles */
+.sidebar {
+    background-color: #002b45;
+    color: white;
+    position: fixed;
+    height: 100%;
+    z-index: 1000;
+    transition: transform 0.3s ease; /* Smooth transition for hiding/showing */
+    width: 3em; /* Set the width of the sidebar */
+}
+
+.navbar-brand{
+    width: 4em !important;
+}
+
+.navbar-logo {
+    width: 100px;
+    height: auto; 
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navbar-nav{
+    margin-right: 16em;
+}
+
+
+/* Navbar styles */
+.navbar {
+    background-color: #002b45 !important;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+}
+
+.rside{
+    width: 40% !important;
+}
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.navbar-toggler{
+    color: white !important;
+}
+
+.navbar-toggler span{
+    color: white !important;
+}
+
+.nav-item a {
+    color: white !important;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.nav-item a:hover {
+    color: #df3138 !important;
+}
+
+.cont-fluid {
+    width:100% !important;
+}
+
+.btn {
+    color: #df3138 !important;
+    border-color: #df3138 !important;
+}
+
+.btn:hover {
+    background-color: #df3138;
+    color: white !important;
+}
+
+/* ========== Mobile Responsive Styles Only ========== */
+
+/* Mobile screen: Hide sidebar on small devices */
+@media only screen and (max-width: 768px) {
+    .sidebar {
+        display: none; /* Sidebar hidden on mobile */
+    }
+
+    nav{
+        width:90% !important;
+    }
+
+    .rside{
+        width: 100% !important;
+    }
+
+    /* Navbar items should be stacked on mobile */
+    .navbar-nav {
+        display: none; /* Hide navbar items by default */
+        width: 100vw;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .navbar-nav{
+        width: 100vw !important;
+    }
+
+    /* When the navbar toggles (on mobile) */
+    .navbar-collapse.show .navbar-nav {
+        display: flex; /* Show navbar items when toggled */
+    }
+
+    .nav-item a {
+        width: 100%;
+        display: block;
+    }
+
+    .btn {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* Mobile Search Bar Styling */
+@media only screen and (max-width: 768px) {
+    .rside {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0 1rem;
+        box-sizing: border-box;
+    }
+
+    .rside input.form-control {
+        width: 100% !important;
+    }
+
+    .rside .btn {
+        width: 100% !important;
+    }
+}
+
+/* Desktop screen: Sidebar is visible on larger screens */
+@media (max-width: 768px) {
+    .sidebar {
+        display: none !important; /* Hide sidebar on mobile */
+    }
+}
+
+/* Show navbar links on toggle for mobile */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        display: none; /* Hide navbar links by default */
+    }
+
+    .navbar-collapse.show {
+        display: block; /* Show navbar links when toggled */
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px){
+    .navbar-nav{
+        margin-right: 4em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebar {
+        display: none !important;
+    }
+
+    .navbar {
+        width: 100% !important;
+        padding: 0 1rem;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .cont-fl {
+        width:100% !important;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .container-fluid {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-collapse {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-collapse.show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 132vw !important;
+        margin: 0;
+    }
+
+    .nav-item a {
+        width: 100%;
+        display: block;
+    }
+
+    .btn {
+        width: 80%;
+        margin: 1rem auto;
+    }
+
+    body {
+        overflow-x: hidden; /* Final safeguard */
+    }
+}
+
+

@@ -1,0 +1,131 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.sidebar{
+    background-color: #002b45 !important;
+    position: fixed;
+    z-index: 988;
+    
+}
+.sidebar-icon {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.sidebar-icon:hover {
+    color:  #df3138; 
+    transform: scale(1.2);
+}
+
+.left1{
+  width: 60%;
+  margin-top: 4em;
+  margin-left: 4em;
+}
+
+.left1 img{
+  width: 100%;
+  transition: transform 0.3s;
+  filter: drop-shadow(0 0 15px rgba(167, 166, 166, 0.7));
+}
+
+.left1 img:hover{
+  transform: scale(1.05);
+}
+
+.right2{
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+}
+
+.right2 button{
+  width: 60%;
+  border: none;
+  color: aliceblue;
+  background-color: #df3138;
+  padding: 20px 2em;
+  border-radius: 2em;
+  font-size:20px;
+  font-weight: 600;
+  transition: transform 0.3s;
+}
+
+.right2 button:hover{
+  transform: scale(1.04);
+}
+
+.right2 p{
+  font-size: 2.75em;
+  font-weight: 600;
+}
+
+.right2 h1{
+  font-size: 1.4em;
+}
+
+.right2 p span{
+  color: #df3138;
+  font-weight: 500;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Media query for mobile view (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+    height: 50%;
+    width: 100%;
+  }
+
+  .left1 {
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .left1 img {
+    width: 130% !important;
+    margin-left: 0 !important;
+    margin-right: 0em !important;
+  }
+
+  .right2 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 4em;
+    margin-left: 6em;
+  }
+
+  .right2 p {
+    font-size: 3em;
+  }
+
+  .right2 button {
+    width: 80%;
+    padding: 15px 2em;
+    font-size: 18px;
+    margin-top: 2em;
+  }
+}

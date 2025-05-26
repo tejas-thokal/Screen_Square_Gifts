@@ -1,0 +1,54 @@
+.whatsapp-button {
+  background-color: #25D366;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: clamp(8px, 2vw, 12px) clamp(16px, 3vw, 24px);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: clamp(0.875rem, 2vw, 1rem);
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  min-width: min(150px, 90%);
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E;
+  transform: translateY(-2px);
+}
+
+.whatsapp-icon {
+  width: clamp(20px, 4vw, 24px);
+  height: clamp(20px, 4vw, 24px);
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+/* When used as a shop button */
+.whatsapp-button.shop-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px 16px;
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  .whatsapp-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .whatsapp-button {
+    padding: 8px 12px;
+  }
+  
+  .whatsapp-button.shop-btn {
+    padding: 6px 12px;
+  }
+} 

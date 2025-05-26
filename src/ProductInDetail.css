@@ -1,0 +1,171 @@
+.product-indetail-container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  margin-top: 5em;
+  padding: 1rem;
+}
+
+.product-indetail-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.product-indetail-image {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-indetail-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-indetail-image img:hover {
+  transform: scale(1.02);
+}
+
+.product-indetail-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.product-indetail-info h1 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  color: #333;
+  margin: 0;
+  font-weight: 600;
+}
+
+.price {
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  color: #2c5282;
+  font-weight: 600;
+  margin: 0;
+}
+
+.description {
+  color: #4a5568;
+}
+
+.description h3 {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.description p {
+  line-height: 1.6;
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.whatsapp-button,
+.back-button {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.whatsapp-button {
+  background-color: #25D366;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.whatsapp-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E;
+  transform: translateY(-2px);
+}
+
+.back-button {
+  background-color: #4a5568;
+  color: white;
+}
+
+.back-button:hover {
+  background-color: #2d3748;
+  transform: translateY(-2px);
+}
+
+.product-not-found {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.product-not-found h2 {
+  font-size: 1.8rem;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.back-link {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #4a5568;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.back-link:hover {
+  background-color: #2d3748;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product-indetail-container {
+    margin-top: 4em;
+    width: 132% !important;
+  }
+
+  .product-indetail-content {
+    padding: 1rem;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-indetail-container {
+    margin-top: 3em;
+    padding: 0.5rem;
+  }
+}

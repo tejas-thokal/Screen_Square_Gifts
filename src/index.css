@@ -1,0 +1,10 @@
+body{
+    background-color:rgb(224, 219, 219);
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    body{
+        background-color: white;
+    }
+}
