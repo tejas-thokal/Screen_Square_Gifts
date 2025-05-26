@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import "./product.css";
 import tshirt from "./converted/combine.webp";
-import Mug from "./converted/mug4.webp";
+import Mug from "./converted/Mug4.webp";
 import Hoodie from "./converted/hoodie.webp";
 import Flaskset from "./converted/flaskset.webp";
 import Cap from "./converted/cap.webp";
