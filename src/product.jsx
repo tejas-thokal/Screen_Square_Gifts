@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./product.css";
 import tshirt from "./converted/Combine.webp";
 import Mug from "./converted/Mug4.webp";
-import Hoodie from "./converted/hoodie.webp";
+import Hoodie from "./converted/Hoodie.webp";
 import Flaskset from "./converted/flaskset.webp";
 import Cap from "./converted/cap.webp";
 import Wallet from "./converted/Wallet.webp";
