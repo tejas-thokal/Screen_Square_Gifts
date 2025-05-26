@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./Reviews.css";
-import Review1 from "./converted/review1.webp";
-import Review2 from "./converted/review2.webp";
-import Review3 from "./converted/review3.webp";
-import Review4 from "./converted/review4.webp";
+import Review1 from "./converted/Review1.webp";
+import Review2 from "./converted/Review2.webp";
+import Review3 from "./converted/Review3.webp";
+import Review4 from "./converted/Review4.webp";
 
 const ReviewSlider = () => {
   const reviews = [

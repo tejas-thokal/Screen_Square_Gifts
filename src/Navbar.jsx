@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
-import logo from "./converted/logo.webp";
+import logo from "./converted/Logo.webp";
 import { useState } from "react"; // Import React's useState hook
 import "./Navbar.css"; // Ensure it has styles for both navbar and sidebar
 import "./Sidebar.css"; // Optional: if you had sidebar styles separate

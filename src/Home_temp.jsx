@@ -1,4 +1,4 @@
-import product from "./converted/product.webp"
+import product from "./converted/Product.webp"
 export default function Home(){
     return (
         <>
