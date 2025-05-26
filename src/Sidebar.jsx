@@ -1,22 +1,29 @@
 import "./Sidebar.css";
-import product from "./converted/Product.webp"
+import product from "./converted/Product.webp";
+import { useNavigate } from "react-router-dom";
 
 export default function Sidebar() {
+  const navigate = useNavigate();
+
+  const handleCustomizeClick = () => {
+    navigate('/work');
+  };
+
   return (
     <>
     <div className="main d-flex">
       <div className="left1">
-                    <img src={product} alt="Product Image" />
-                </div>
+        <img src={product} alt="Product Image" />
+      </div>
       <div className="right2">
-                    <p>
-                        Gifts that <br/>
-                        speak <span>volumes</span><br/>
-                        about your <span>brand</span>
-                    </p>
-                    <h1>Your One-Stop Solution for <br /> Custom
+        <p>
+          Gifts that <br/>
+          speak <span>volumes</span><br/>
+          about your <span>brand</span>
+        </p>
+        <h1>Your One-Stop Solution for <br /> Custom
 Corporate Printing and  Branding Needs.</h1>
-                    <button>Customize Your Product</button>
+        <button onClick={handleCustomizeClick}>Customize Your Product</button>
       </div>
     </div>
     </>
