@@ -1,5 +1,5 @@
 import "./footer.css";
-import logo from "./converted/Logo.webp";
+import Logo from "./converted/Logo.webp";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -9,7 +9,7 @@ export default function Footer() {
                 <div className="row g-4">
                     <div className="fot-container3">
                         <div className="col-md-3 mb-4 container2">
-                            <img src={logo} alt="Screen Square" className="img-fluid" />
+                            <img src={Logo} alt="Screen Square" className="img-fluid" />
                         </div>
                         <div className="col-md-3 mb-4">
                             <h5>About Us</h5>
