@@ -2,7 +2,7 @@ import React, { useState, useMemo, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import "./Work.css";
 import WhatsAppButton from './components/WhatsAppButton';
-import RoundNeck_Blue from "./converted/Roundneck_Black.webp";
+import RoundNeck_Blue from "./converted/Roundneck_black.webp";
 import Hoodie1 from "./converted/Hoodie1.webp";
 import Hoodie2 from "./converted/Hoodie2.webp";
 import Hoodie3 from "./converted/Hoodie3.webp";
