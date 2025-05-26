@@ -41,7 +41,7 @@ import Temp2 from "./converted/Temp2.webp";
 import Temp3 from "./converted/Temp3.webp";
 import Temp4 from "./converted/Temp4.webp";
 import Temp5 from "./converted/Temp5.webp";
-import Temp6 from "./converted/Temp6.webp";
+import Temp6 from "./converted/temp6.webp";
 import Temp7 from "./converted/Temp7.webp";
 import Cap1 from "./converted/Cap1.webp";
 import Cap2 from "./converted/Cap2.webp";
