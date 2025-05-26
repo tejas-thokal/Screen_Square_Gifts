@@ -1,14 +1,14 @@
 import { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import "./product.css";
-import tshirt from "./converted/combine.webp";
+import tshirt from "./converted/Combine.webp";
 import Mug from "./converted/Mug4.webp";
-import Hoodie from "./converted/hoodie.webp";
-import Flaskset from "./converted/flaskset.webp";
-import Cap from "./converted/cap.webp";
-import Wallet from "./converted/wallet.webp";
-import Bottle from "./converted/bottle.webp";
-import Set from "./converted/set.webp";
+import Hoodie from "./converted/Hoodie.webp";
+import Flaskset from "./converted/FlaskSet.webp";
+import Cap from "./converted/Cap.webp";
+import Wallet from "./converted/Wallet.webp";
+import Bottle from "./converted/Bottle.webp";
+import Set from "./converted/Set.webp";
 
 const products = [
   { id: "t-shirt", name: "Customize Tshirts", description: "for Gift", image: tshirt, className: "tshirt special-card" },
