@@ -1,9 +1,9 @@
 import React from "react";
 import "./Skills.css";
-import Skill1 from "./converted/Skill1.webp";
-import Skill2 from "./converted/Skill2.webp";
-import Skill3 from "./converted/Skill3.webp";
-import Skill4 from "./converted/Skill4.webp";
+import Skill1 from "./converted/skill1.webp";
+import Skill2 from "./converted/skill2.webp";
+import Skill3 from "./converted/skill3.webp";
+import Skill4 from "./converted/skill4.webp";
 
 export default function Skills () {
     const Skills = [
