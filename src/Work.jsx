@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Work.css";
-import RoundNeck_Blue from "./converted/roundneck_black.webp";
+import RoundNeck_Blue from "./converted/Roundneck_Black.webp";
 import Hoodie1 from "./converted/Hoodie1.webp";
 import Mug1 from "./converted/Mug1.webp";
-import Leather1 from "./converted/leather1.webp";
+import Leather1 from "./converted/Leather1.webp";
 import Pen1 from "./converted/Pen1.webp";
 import Bottle1 from "./converted/Bottle1.webp";
 import Cap1 from "./converted/Cap1.webp";
-import CardHolder1 from "./converted/Cardholder1.webp";
+import CardHolder1 from "./converted/CardHolder1.webp";
 import Keychain1 from "./converted/Keychain1.webp";
 import PhoneStand1 from "./converted/PhoneStand1.webp";
 import FlaskSet1 from "./converted/FlaskSet1.webp";
