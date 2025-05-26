@@ -41,7 +41,7 @@ import Temp2 from "./converted/Temp2.webp";
 import Temp3 from "./converted/Temp3.webp";
 import Temp4 from "./converted/Temp4.webp";
 import Temp5 from "./converted/Temp5.webp";
-import Temp6 from "./converted/temp6.webp";
+import Temp6 from "./converted/Temp6.webp";
 import Temp7 from "./converted/Temp7.webp";
 import Cap1 from "./converted/Cap1.webp";
 import Cap2 from "./converted/Cap2.webp";
@@ -68,10 +68,10 @@ import Plate3 from "./converted/Plate3.webp";
 import Plate4 from "./converted/Plate4.webp";
 import Plate5 from "./converted/Plate5.webp";
 import Pillow1 from "./converted/Pillow1.webp";
-import Pillow2 from "./converted/pillow2.webp";
-import Pillow3 from "./converted/pillow3.webp";
-import Pillow4 from "./converted/pillow4.webp";
-import Pillow5 from "./converted/pilow5.webp";
+import Pillow2 from "./converted/Pillow2.webp";
+import Pillow3 from "./converted/Pillow3.webp";
+import Pillow4 from "./converted/Pillow4.webp";
+import Pillow5 from "./converted/Pillow5.webp";
 import Tiffin1 from "./converted/Tiffin1.webp";
 import Tiffin2 from "./converted/Tiffin2.webp";
 import Tiffin3 from "./converted/Tiffin3.webp";
@@ -88,15 +88,15 @@ import PouchLeather2 from "./converted/PouchLeather2.webp";
 import PouchLeather3 from "./converted/PouchLeather3.webp";
 import PouchLeather4 from "./converted/PouchLeather4.webp";
 import PouchLeather5 from "./converted/PouchLeather5.webp";
-import Pouch2 from "./converted/pouch2.webp";
-import Pouch3 from "./converted/pouch3.webp";
+import Pouch2 from "./converted/Pouch2.webp";
+import Pouch3 from "./converted/Pouch3.webp";
 import Wallet1 from "./converted/Wallet1.webp";
-import Wallet2 from "./converted/wallet2.webp";
-import Wallet3 from "./converted/wallet3.webp";
-import Wallet4 from "./converted/wallet4.webp";
-import Wallet5 from "./converted/wallet5.webp";
-import Wallet6 from "./converted/wallet6.webp";
-import Wallet7 from "./converted/wallet7.webp";
+import Wallet2 from "./converted/Wallet2.webp";
+import Wallet3 from "./converted/Wallet3.webp";
+import Wallet4 from "./converted/Wallet4.webp";
+import Wallet5 from "./converted/Wallet5.webp";
+import Wallet6 from "./converted/Wallet6.webp";
+import Wallet7 from "./converted/Wallet7.webp";
 import Labcoat1 from "./converted/Labcoat1.webp";
 import Labcoat2 from "./converted/Labcoat2.webp";
 import Labcoat3 from "./converted/Labcoat3.webp";
@@ -177,7 +177,7 @@ const productDetails = {
     name: "Wallets",
     description: "Classy wallets for both men and women.",
     themes: {
-      leather: [Wallet1,Wallet3,Wallet4,Wallet5,Wallet6,Wallet7]
+      leather: [Wallet1, Wallet2, Wallet3, Wallet4, Wallet5, Wallet6, Wallet7]
     }
   },
   "phone-stand": {
@@ -198,7 +198,7 @@ const productDetails = {
     name: "Pillows",
     description: "Comfortable and supportive pillows.",
     themes: {
-      Family: [Pillow1,Pillow2,Pillow3,Pillow4,Pillow5]
+      Family: [Pillow1, Pillow2, Pillow3, Pillow4, Pillow5]
     }
   },
   tiffin: {
