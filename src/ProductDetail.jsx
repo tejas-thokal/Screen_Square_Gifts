@@ -47,7 +47,6 @@ import Cap1 from "./converted/Cap1.webp";
 import Cap2 from "./converted/Cap2.webp";
 import Cap3 from "./converted/Cap3.webp";
 import Cap4 from "./converted/Cap4.webp";
-import CardHolder1 from "./converted/CardHolder1.webp";
 import CardHolder2 from "./converted/CardHolder2.webp";
 import CardHolder3 from "./converted/CardHolder3.webp";
 import CardHolder4 from "./converted/CardHolder4.webp";
@@ -227,7 +226,7 @@ const productDetails = {
     name: "Card Holders",
     description: "Sleek and secure card holders, perfect for organizing your business and credit cards with style.",
     themes: {
-      vacation: [CardHolder1, CardHolder2, CardHolder3, CardHolder4],
+      vacation: [CardHolder2, CardHolder3, CardHolder4],
     }
   },
   apron: {
