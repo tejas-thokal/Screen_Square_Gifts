@@ -1,16 +1,12 @@
 import React, { useState } from "react";
 import "./Reviews.css";
-import Review1 from "./converted/Review1.webp";
-import Review2 from "./converted/Review2.webp";
-import Review3 from "./converted/Review3.webp";
-import Review4 from "./converted/Review4.webp";
 
 const ReviewSlider = () => {
   const reviews = [
-    { image: Review1 },
-    { image: Review2 },
-    { image: Review3 },
-    { image: Review4 },
+    { image: '/converted/Review1.webp' },
+    { image: '/converted/Review2.webp' },
+    { image: '/converted/Review3.webp' },
+    { image: '/converted/Review4.webp' },
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);

@@ -1,10 +1,9 @@
-import product from "./converted/Product.webp"
 export default function Home(){
     return (
         <>
         <div className="container">
             <div className="left">
-                <img src={product} alt="Product Image" />
+                <img src="/converted/Product.webp" alt="Product Image" />
             </div>
             <div className="right">
                 <p>

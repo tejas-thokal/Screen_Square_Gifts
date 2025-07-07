@@ -1,5 +1,4 @@
 import { Link, useNavigate } from "react-router-dom";
-import Logo from "./converted/Logo.webp";
 import { useState } from "react"; // Import React's useState hook
 import "./Navbar.css"; // Ensure it has styles for both navbar and sidebar
 import "./Sidebar.css"; // Optional: if you had sidebar styles separate
@@ -43,7 +42,7 @@ export default function NavbarWithSidebar() {
             <nav className="navbar navbar-expand-lg bg-body-tertiary w-100">
                 <div className="container-fluid ">
                     <Link className="navbar-brand" to="/">
-                        <img src={Logo} alt="Screen Square" className="navbar-logo"/>
+                        <img src="/converted/Logo.webp" alt="Screen Square" className="navbar-logo"/>
                     </Link>
 
                     <button

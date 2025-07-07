@@ -1,16 +1,12 @@
 import React from "react";
 import "./Skills.css";
-import Skill1 from "./converted/Skill1.webp";
-import Skill2 from "./converted/Skill2.webp";
-import Skill3 from "./converted/Skill3.webp";
-import Skill4 from "./converted/Skill4.webp";
 
 export default function Skills () {
     const Skills = [
-        {image: Skill1, title: "Customer Centric"},
-        {image: Skill2, title: "Operational Excellence"},
-        {image: Skill3, title: "Innovation"},
-        {image: Skill4, title: "Integrity"}
+        {image: '/converted/Skill1.webp', title: "Customer Centric"},
+        {image: '/converted/Skill2.webp', title: "Operational Excellence"},
+        {image: '/converted/Skill3.webp', title: "Innovation"},
+        {image: '/converted/Skill4.webp', title: "Integrity"}
     ];
     return (
         <div className="box">

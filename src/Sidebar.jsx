@@ -1,5 +1,4 @@
 import "./Sidebar.css";
-import product from "./converted/Product.webp";
 import { useNavigate } from "react-router-dom";
 
 export default function Sidebar() {
@@ -13,7 +12,7 @@ export default function Sidebar() {
     <>
     <div className="main d-flex">
       <div className="left1">
-        <img src={product} alt="Product Image" />
+        <img src="/converted/Product.webp" alt="Product Image" />
       </div>
       <div className="right2">
         <p>

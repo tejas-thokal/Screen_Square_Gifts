@@ -1,48 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Work.css";
-import RoundNeck_Blue from "./converted/Roundneck_black.webp";
-import Hoodie1 from "./converted/Hoodie1.webp";
-import Mug1 from "./converted/Mug1.webp";
-import Leather1 from "./converted/Leather1.webp";
-import Pen1 from "./converted/Pen1.webp";
-import Bottle1 from "./converted/Bottle1.webp";
-import Cap1 from "./converted/Cap1.webp";
-import CardHolder1 from "./converted/CardHolder1.webp";
-import Keychain1 from "./converted/Keychain1.webp";
-import PhoneStand1 from "./converted/PhoneStand1.webp";
-import FlaskSet1 from "./converted/FlaskSet1.webp";
-import Plate1 from "./converted/Plate1.webp";
-import Pillow1 from "./converted/Pillow1.webp";
-import Tiffin1 from "./converted/Tiffin1.webp";
-import Pouch1 from "./converted/Pouch1.webp";
-import Wallet1 from "./converted/Wallet1.webp";
-import Labcoat1 from "./converted/Labcoat1.webp";
-import Shirt1 from "./converted/Shirt1.webp";
-import Apron1 from "./converted/Apron1.webp";
-import LeatherCombo1 from "./converted/LeatherCombo1.webp";
 
 const products = [
-  { image: RoundNeck_Blue, name: "T-Shirts", link: "/product/t-shirt" },
-  { image: Hoodie1, name: "Hoodies", link: "/product/hoodies" },
-  { image: Mug1, name: "Mugs", link: "/product/mugs" },
-  { image: Leather1, name: "Combos", link: "/product/combo" },
-  { image: Pen1, name: "Pens", link: "/product/pen" },
-  { image: Bottle1, name: "Bottles", link: "/product/bottle" },
-  { image: Cap1, name: "Caps", link: "/product/cap" },
-  { image: PhoneStand1, name: "Mobile Stands", link: "/product/phone-stand" },
-  { image: FlaskSet1, name: "Vacuum Flask Sets", link: "/product/flaskset" },
-  { image: Pillow1, name: "Pillows", link: "/product/pillow" },
-  { image: Tiffin1, name: "Tiffins", link: "/product/tiffin" },
-  { image: Pouch1, name: "Pouches", link: "/product/pouch" },
-  { image: CardHolder1, name: "Card holders", link: "/product/cardholder" },
-  { image: Apron1, name: "Aprons", link: "/product/apron" },
-  { image: Keychain1, name: "Keychains", link: "/product/keychain" },
-  { image: Shirt1, name: "Shirts", link: "/product/shirt" },
-  { image: Labcoat1, name: "Lab Coats", link: "/product/labcoat" },
-  { image: Wallet1, name: "Wallets", link: "/product/wallet" },
-  { image: Plate1, name: "Plates", link: "/product/plate" },
-  { image: LeatherCombo1, name: "Leather Combo", link: "/product/leather" },
+  { image: '/converted/Roundneck_black.webp', name: "T-Shirts", link: "/product/t-shirt" },
+  { image: '/converted/Hoodie1.webp', name: "Hoodies", link: "/product/hoodies" },
+  { image: '/converted/Mug1.webp', name: "Mugs", link: "/product/mugs" },
+  { image: '/converted/Leather1.webp', name: "Combos", link: "/product/combo" },
+  { image: '/converted/Pen1.webp', name: "Pens", link: "/product/pen" },
+  { image: '/converted/Bottle1.webp', name: "Bottles", link: "/product/bottle" },
+  { image: '/converted/Cap1.webp', name: "Caps", link: "/product/cap" },
+  { image: '/converted/PhoneStand1.webp', name: "Mobile Stands", link: "/product/phone-stand" },
+  { image: '/converted/FlaskSet1.webp', name: "Vacuum Flask Sets", link: "/product/flaskset" },
+  { image: '/converted/Pillow1.webp', name: "Pillows", link: "/product/pillow" },
+  { image: '/converted/Tiffin1.webp', name: "Tiffins", link: "/product/tiffin" },
+  { image: '/converted/Pouch1.webp', name: "Pouches", link: "/product/pouch" },
+  { image: '/converted/CardHolder1.webp', name: "Card holders", link: "/product/cardholder" },
+  { image: '/converted/Apron1.webp', name: "Aprons", link: "/product/apron" },
+  { image: '/converted/Keychain1.webp', name: "Keychains", link: "/product/keychain" },
+  { image: '/converted/Shirt1.webp', name: "Shirts", link: "/product/shirt" },
+  { image: '/converted/Labcoat1.webp', name: "Lab Coats", link: "/product/labcoat" },
+  { image: '/converted/Wallet1.webp', name: "Wallets", link: "/product/wallet" },
+  { image: '/converted/Plate1.webp', name: "Plates", link: "/product/plate" },
+  { image: '/converted/LeatherCombo1.webp', name: "Leather Combo", link: "/product/leather" },
 ];
 
 const Products = () => {

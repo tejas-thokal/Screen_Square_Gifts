@@ -1,6 +1,5 @@
 import React from "react";
 import "./About_US.css";
-import Bhumika from "./converted/Bhumika.webp";
 
 export default function PortfolioCard() {
   return (
@@ -9,7 +8,7 @@ export default function PortfolioCard() {
         <div className="profile-image-wrapper">
           <div className="profile-border">
             <img
-              src={Bhumika}
+              src="/converted/Bhumika.webp"
               alt="Bhumika"
               className="profile-image"
             />
